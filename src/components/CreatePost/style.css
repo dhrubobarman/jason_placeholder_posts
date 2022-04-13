@@ -1,0 +1,15 @@
+.create_post {
+  width: 100%;
+  padding: 20px 30px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+  position: relative;
+  transition: all 0.3s;
+  margin-top: 50px;
+}
+.create_post h5 {
+  margin: 0;
+  padding-right: 70px;
+}

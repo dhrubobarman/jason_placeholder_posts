@@ -1,0 +1,27 @@
+.modal_container {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  background-color: #423d46;
+  border-radius: 7px;
+  box-shadow: rgb(0 0 0 / 61%) 0px 0px 0px 10000px;
+  padding: 30px;
+  z-index: 5;
+}
+.modal_container input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.modal_container textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: vertical;
+}
+.modal_container :is(input, textarea) {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
